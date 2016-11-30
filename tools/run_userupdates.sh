@@ -1,0 +1,1 @@
+python ../analytics/userupdates.py

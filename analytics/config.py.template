@@ -1,0 +1,15 @@
+# Elastic Search Configuration
+
+es_url = 'localhost'
+es_port = '9200'
+es_index = 'proprio'
+es_test_index = 'proprio_test'
+es_doc_type = 'raw_v2'
+es_analyzed_doc = 'analysis_v2'
+slackhook = 'https://hooks.slack.com/services/..........'
+
+
+
+
+config = {"slackhook":slackhook, "es_url": es_url, "es_port": es_port, "es_index": es_index, "es_test_index": es_test_index,
+          "es_doc_type": es_doc_type, "es_analyzed_doc": es_analyzed_doc}
